@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.pageBienvenu {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(49, 39, 189);
+    color: #fff;
+    padding: 2rem;
+    margin-top: 0 2.5rem;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.login {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+.item {
+    background-color: rgb(4, 16, 53);
+    color: #fff;
+    padding: 1rem;
+    margin: .8rem;
+    border-radius: .7rem;
+}
+
+#formulaire {
+    width: 50vh;
+
+    box-shadow: .5px .5px 8px rgb(185, 185, 185);
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.form-group {
+
+    padding: .8rem;
+    font-size: 1rem;
+    text-align: left;
+    color: #000;
+    margin: 0 auto;
+}
+input:focus-within {
+    background: rgb(197, 200, 253);
+  }
+input {
+    width: 100%; 
+    text-align: left;
+    margin: 0 auto;
+    padding: .4rem;
+    border: .1px solid#ccc;
+}
+input:focus{
+   outline:none;
+}
+label {
+
+    font-weight: bold;
+    display: inline-block;
+    font-size: .8rem;
+    text-align: center;
+    margin: .5rem;
+}
+
+.btnSubmit {
+    margin: 1.5rem auto;
+    padding: .8rem;
+    background-color: rgb(49, 39, 189);
+    color: #fff;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+.message{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    padding: .2rem;
+}
+.alert-success{
+  background-color: rgb(174, 244, 221);
+}
+.alert-danger{
+  background-color: rgb(248, 131, 116);
+}

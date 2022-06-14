@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.pageBienvenu {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(49, 39, 189);
+    color: #fff;
+    padding: 2rem;
+    margin-top: 0 2.5rem;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tache {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.hide-clear{
+    display:none;
+}
+.hide-list{
+    display: none;
+}
+.show-list{
+    display: block;
+}
+
+#formulaire {
+    width: 35vw;
+    box-shadow: .5px .5px 8px rgb(185, 185, 185);
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.form-group {
+
+    padding: .8rem;
+    font-size: 1rem;
+    color: #000;
+    margin: 0 auto;
+    text-align: center;
+}
+input:focus-within {
+    background: rgb(197, 200, 253);
+    border-radius: .5rem;
+  }
+input {
+    width: 60%; 
+    margin: 1.5rem auto;
+    padding: .4rem;
+    border: .1px solid#ccc;
+    display: inline-block;
+}
+input:focus{
+   outline:none;
+}
+
+
+.btnSubmit {
+    padding: .5rem;
+    background-color: rgb(49, 39, 189);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.list-items{
+   display:block;
+   justify-items:flex-start;
+   position: relative;
+}
+
+li{
+    color: rgb(71, 68, 68);
+    border-bottom: .1rem dotted#d5d6d5;
+     margin: .8rem auto;
+     padding: .2rem;
+     width:20vw;
+     font-size: .9rem;   
+     text-transform:capitalize;
+     transition: all ease 1s;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+}
+li:hover{
+    background-color: rgb(206, 234, 251);
+    cursor: pointer;
+}
+.editBtn,.far{
+ color: rgb(107, 161, 121);
+ font-size: .8rem;
+ cursor: pointer;
+ right: 5rem;
+ position:absolute;
+ 
+}
+.deleteBtn{
+   color: rgb(232, 83, 14);
+  position:absolute;
+   font-size: .8rem;
+   cursor: pointer;
+    right: 2rem;
+  }
+  .clearAll{
+      text-align: center;
+      padding-top: 1.5rem;
+      margin-bottom: 1rem;
+      text-decoration:underline;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      cursor: pointer;
+  }
+
+  .hide-clear{
+      display: none;
+  }
+  .message{
+      width: 300px;
+      text-align: center;
+      margin: 0 auto;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: .9rem;
+      padding: .2rem;
+  }
+  .alert-success{
+    background-color: rgb(174, 244, 221);
+  }
+  .alert-danger{
+    background-color: rgb(248, 131, 116);
+  }
